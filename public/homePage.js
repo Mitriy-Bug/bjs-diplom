@@ -23,7 +23,7 @@ function getStock() {
 	}
 )}
 getStock();
-setInterval(getStock(), 60000);
+setInterval(getStock, 60000);
 //Операции с деньгами
 let money = new MoneyManager();
 //пополнение баланса
